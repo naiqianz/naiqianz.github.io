@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>一段经历的总结</title>
+    <link href="/2024/10/21/tsingj-life/"/>
+    <url>/2024/10/21/tsingj-life/</url>
+    
+    <content type="html"><![CDATA[<p>在青椒度过了愉快的两年半时间，在这段时间里熬过了疫情，写完了硕士毕业论文，最重要的是跟很多优秀的人一起共事，学到了不少东西。见识到了清华姚班大佬们的天分，和领导学习了怎么把基础架构、devops工程的产出量化，工作以来第一次见到代码风格、写法方面的专家。也学到了不少B端软件的管理经验。</p><h2 id="这两年的一些工作整理"><a href="#这两年的一些工作整理" class="headerlink" title="这两年的一些工作整理"></a>这两年的一些工作整理</h2><h3 id="软件生命周期的管理"><a href="#软件生命周期的管理" class="headerlink" title="软件生命周期的管理"></a>软件生命周期的管理</h3><p>做B端软件有很多有意思的地方，比如怎么保证软件质量，怎么做版本兼容，怎么兼容不同的客户环境，怎么在客户的环境快速定位软件故障（感觉直到我走也没把遥测做好，汗颜），软件的安全性怎么保证。有空每个细节都可以开个专题写写。</p><h3 id="离线批任务的调度"><a href="#离线批任务的调度" class="headerlink" title="离线批任务的调度"></a>离线批任务的调度</h3><p>刚到青椒做了一些算法调度的工作，现在想想，所以调度类的功能都是类似的，就是从列表中选择合适的节点出来，需要考虑选择过程中的计算代价以及节点的适配程度。除了算法调度，像nginx负载均衡web请求，cdn、p2p网络服务选择一台合适的节点都可以抽象为类似的模型，比如优先级队列。</p><h3 id="k8s-operator和helm开发"><a href="#k8s-operator和helm开发" class="headerlink" title="k8s operator和helm开发"></a>k8s operator和helm开发</h3><p>做了一些k8s生态的开发，也比较有意思，这部分偏向sre的工作。k8s operator本质上是弥补k8s为了适应大部分场景导致资源类型和调度算法过度抽象，难以适应一些特殊的场景，比如有状态服务的处理。<br>helm对k8s也是非常好的补充，可以清晰地描述出一个项目的所有的组件依赖关系。</p><h3 id="envoy的开发"><a href="#envoy的开发" class="headerlink" title="envoy的开发"></a>envoy的开发</h3><p>这个牵扯了我后面很大的精力，envoy一开始只是替换nginx做了一个灵活的网关，后面又用它做了正向代理，最后治理了所有东西南北向的流量，还是非常有意思的工作，envoy也是很优秀的软件。</p><h2 id="对未来的展望"><a href="#对未来的展望" class="headerlink" title="对未来的展望"></a>对未来的展望</h2><p>重回了C端业务，新业务据说有上亿日活，最近准备捡回数据密集型系统设计看看。希望后面有机会把这两年多学到的B端工作优化到C端业务上来。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>个人总结</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件</tag>
+      
+      <tag>k8s</tag>
+      
+      <tag>B端</tag>
+      
+      <tag>个人感悟</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
